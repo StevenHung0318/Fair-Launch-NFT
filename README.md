@@ -1,9 +1,12 @@
 # The NFT Fair Launch Repo
 
-We go through creating 2 different way of NFT fair lauch function.
+I tried to create two different ways to implement fair release functionality for NFTs, but they each have their drawbacks.
 
-1. Let user choose tokenID to mint（not really programmatically way haha ＆ not 100% fair）
-2. Use chainlinkVRF to get random tokenID to mint （There may be tokenID conflict issues）
+Also check out my other methods for NFT fair launch:https://github.com/StevenHung0318/hardhat-vrf-random-nft-fair-launch
+
+The way i using in this repo:
+1. Let user choose tokenID to mint（not really programmatically way haha ＆ not 100% fair, but it is suitable for lottery draws like Ichiban Rewards）
+2. Use chainlinkVRF to get random tokenID to mint （There may be tokenID conflict issues）-> check https://github.com/StevenHung0318/hardhat-vrf-random-nft-fair-launch to avoid this problem ( but it takes much more gas fee )
 
 
 # Getting Started
