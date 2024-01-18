@@ -2,7 +2,7 @@
 
 We go through creating 2 different way of NFT fair lauch function.
 
-1. Let user choose tokenID to mint（not really programmatically way haha）
+1. Let user choose tokenID to mint（not really programmatically way haha ＆ not 100% fair）
 2. Use chainlinkVRF to get random tokenID to mint （There may be tokenID conflict issues）
 
 
